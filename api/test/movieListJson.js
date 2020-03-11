@@ -1,6 +1,6 @@
 const assert = require('chai').expect;
 const page = require('../page/movie-list.js');
-const data = require('../data/movie.js')
+const data = require('../data/movieSchema.js');
 var chai = require('chai');
 chai.use(require('chai-json-schema'));
 
